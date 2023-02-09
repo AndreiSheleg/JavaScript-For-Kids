@@ -4,9 +4,7 @@ let dog = {
   isAwesome: true
 };
 
-dog.bark = function () {
-  console.log("Гав-гав! Меня зовут " + this.name + "!");
-};
+dog.bark = () => console.log("Гав-гав! Меня зовут " + this.name + "!")
 
 dog.bark();
 // Гав-гав! Меня зовут Оладушек!
